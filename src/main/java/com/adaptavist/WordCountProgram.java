@@ -1,4 +1,4 @@
-package main.java.com.adaptavist.assesment;
+package main.java.com.adaptavist;
 
 import java.io.*;
 import java.util.*;
@@ -43,7 +43,7 @@ public class WordCountProgram {
 
     public static void main(String[] args) {
         String filePath = "<Please Provide File Path>";
-//        String filePath = "/Users/zohaib/Downloads/wordCount.txt";
+//        String filePath = "/Users/xubii/Downloads/WordCount/src/main/resources/wordCount.txt";
         WordCountProgram wordCounter = new WordCountProgram();
         wordCounter.readFromInputFile(filePath);
         wordCounter.printWordCount(wordCounter.sortByMostOccurrences());

@@ -1,6 +1,6 @@
 package test.java.com.adaptavist.assessment;
 
-import main.java.com.adaptavist.assesment.WordCountProgram;
+import main.java.com.adaptavist.WordCountProgram;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -26,11 +26,11 @@ public class WordCountProgramTest {
 
     @Test
     public void verifyCountOfOccurrencesWord() {
-        String filePath = "<File_Path>";
+        String filePath = "<File Path>";
         wordCounter.readFromInputFile(filePath); // Replace with your input file
         wordCounter.printWordCount(wordCounter.sortByMostOccurrences());
 
-        String[] expectedOutput = new String[]{"et: 6", "in: 5", "eget: 5"};
+        String[] expectedOutput = new String[]{"sample: 6", "words: 5", "text: 4"};
         String[] result = outContent.toString().split("\\n"); // split by new lines
 
         assertAll("",

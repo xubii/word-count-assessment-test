@@ -1,0 +1,5 @@
+This is a sample text for testing the word count program.
+It contains some words that will be counted.
+This is a sample text with some sample words.
+Sample text, sample words, and more samples.
+Words like sample, text, and words will be counted.
